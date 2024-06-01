@@ -1,0 +1,16 @@
+
+.homepage-header p {
+    text-align: left;
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .homepage-header h1 {
+    margin-bottom: 5px;
+    font-size: 48px;
+  }
+  
+  .homepage-header {
+    margin-bottom: 90px;
+  }
+  

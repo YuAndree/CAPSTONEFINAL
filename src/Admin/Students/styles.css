@@ -1,0 +1,202 @@
+#students h1 {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+#students .course-nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+#students .course-nav .active {
+  color: #5DAEF8;
+}
+
+
+#students .course-nav a {
+  display: block;
+  background: #801C1C;
+  width: 100%;
+  text-align: center;
+  padding: 12px 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.success-modal h2 {
+  text-align: center;
+  margin: 90px 0 84px;
+}
+
+.success-modal p {
+  text-align: right;
+  margin: 0;
+  cursor: pointer;
+}
+
+.success-modal {
+  padding: 0 48px;
+}
+
+#students .header .header-actions a {
+  background: #F8C400;
+  display: inherit;
+  width: auto;
+  text-align: center;
+  line-height: 26px;
+  color: #000;
+  text-decoration: unset !important;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.header-actions {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  right: 0;
+  top: 0;
+  column-gap: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#students .header {
+  margin-top: 66px;
+  position: relative;
+}
+
+#students .header .search {
+  background: #D9D9D9;
+  border: unset;
+  width: 183px;
+  height: 31px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#documents-table .check-btn {
+  background: #F8C400;
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 26px;
+  color: #000;
+  text-decoration: unset !important;
+  }
+.filter-options button {
+    background: #F8C400;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 8px;
+    height: 26px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .filter-options {
+    text-align: center;
+  }
+  
+.filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    column-gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .filter li {
+    width: 100%;
+  }
+  
+  li {
+  }
+  
+  .filter li {
+    list-style: none;
+  }
+  
+  .filter li label {
+    display: block;
+  }
+  
+  .filter li {
+    text-align: center;
+  }
+  
+  .filter li input {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #8C8A8A;
+  }
+
+  .document-info .header .actions {
+    text-align: right;
+  }
+  
+  .document-info .header a {
+    margin: 0;
+    width: 100px;
+    height: 34px;
+    border: none;
+    margin: 5px;
+    background: #D9D9D9;
+    font-weight: 600;
+    cursor: pointer;
+    background: #F8C400;
+    display: block;
+    text-align: center;
+    line-height: 34px;
+    color: #000;
+    text-decoration: none !important;
+  }
+.records-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.records-profile section p {
+  text-align: left;
+}
+
+.records-profile section:nth-child(2) {
+  width: 29%;
+}
+
+.records-profile section:nth-child(3) {
+  width: 27%;
+}
+
+.records-profile section:nth-child(4) {
+  width: 24%;
+}
+
+.records-profile section:nth-child(1) {
+  width: 245px;
+}
+
+.records-profile section:nth-child(4) a {
+  display: block;
+  text-decoration: none !important;
+  padding: 8px 0;
+  border-radius: 5px;
+  background: #F8C400;
+  color: #000;
+  margin-left: auto;
+  width: 139px;
+  text-align: center;
+}
+
+.records-profile {
+  border: 1px solid #DADADA;
+  border-radius: 12px;
+  margin: 0 30px 30px;
+  padding: 20px 39px;
+}

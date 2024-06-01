@@ -1,0 +1,300 @@
+
+.modal-content .btn-submit {
+  background: #D9D9D9;
+  display: block;
+  color: #000;
+  border: #000;
+  width: 162px;
+  line-height: 37px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.modal-back {
+  font-size: 26px;
+  font-weight: 700;
+  cursor: pointer;
+  }
+
+.requirements-content table.tbl-requirements {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.requirements-content table.tbl-requirements thead {
+  background: #D9D9D9;
+}
+
+.requirements-content table.tbl-requirements th, .requirements-content table.tbl-requirements td {
+  padding: 10px 10px;
+}
+
+.requirements-content table.tbl-requirements td:last-child {
+  width: 100px;
+}
+
+.requirements-content section h2 {
+  background: #801C1C;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.requirements-content table.tbl-requirements tr {
+  background: #D9D9D9;
+}
+  .requirements-content table.tbl-requirements tr td {
+  border-bottom: 20px solid #fff;
+  padding: 10px 50px;
+}
+
+.requirements-nav {
+  margin-bottom: 25px;
+}
+
+.requirements-content table.tbl-requirements thead th {
+  text-align: left;
+}
+
+.requirements-header h1 img {
+  position: relative;
+  top: 8px;
+  margin-right: 22px;
+}
+
+.requirements-header {
+  margin-bottom: 25px;
+}
+
+.requirements-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D9D9D9;
+}
+
+.requirements-nav ul li a {
+  text-align: center;
+  display: block;
+  color: #000;
+  padding: 12px 5px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.requirements-nav ul li {
+  width: 50%;
+}
+
+.requirements-nav ul li a.active {
+  background: #801C1C;
+  color: #fff;
+}
+
+
+/* Upload Modal */
+
+.modal-container {
+    position: fixed;
+    top: 117px;
+    max-width: 1440px;
+    margin: 0 auto;
+    right: 0;
+    min-height: 870px;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    background: #fff;
+    border-radius: 23px;
+    padding: 63px 40px 40px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .modal-container::before {
+    content: "";
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .modal-container img.modal-bg {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+    width: 105%;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+.modal-content h2 {
+    text-align: center;
+    margin-top: 121px;
+  }
+  .attached-container {
+    border: 1px solid #F8C400;
+    min-height: 400px;
+    position: relative;
+    }
+  .file-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 17px;
+    cursor: pointer;
+    width: 208px;
+    height: 60px;
+    border: 1px solid #801C1C;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 4px;
+  }
+  .file-container input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .file-upload {
+    color: #000;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+    font-weight: 600;
+    }
+  .file-info {
+    background: #D9D9D9;
+    padding: 12px 15px;
+    margin: 50px 40px;
+    position: relative;
+    }
+  .delete-btn {
+    color: #000;
+    text-decoration: none !important;
+    cursor: pointer;
+    background: #fff;
+    display: inline-block;
+    padding: 2px 12px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+/* End Upload Modal */
+
+.file-container input {
+    opacity: 0;
+  }
+  .modal-content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 0;
+    text-decoration: none;
+  }
+  .modal-content td:last-child {
+    background: #D9D9D9;
+    padding: 7px 10px;
+    width: 78%;
+    border: 1px solid #000;
+  }
+  .modal-content td:first-child {
+    padding-right: 10px;
+  }
+.status-title {
+    text-align: center !important;
+  }
+.modal-content button {
+    display: block;
+    margin-left: 0;
+    border: 1px solid #000;
+    width: auto;
+    padding: 5px 36px;
+    background: #D9D9D9;
+    margin: 29px auto 0;
+    cursor: pointer;
+  }
+
+#nlo-requirements .wrapper {
+  margin-left: 270px;
+  margin-right: 100px;
+}
+
+.nlo-requirements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  justify-content: space-between;
+}
+
+.nlo-requirements ul li {
+  width: 33%;
+  padding: 5px 55px;
+  box-sizing: border-box;
+  background: #7A2E2E2F;
+}
+
+.tbl-requirements-status-con {
+  display: flex;
+  margin-top: 40px;
+  column-gap: 5px;
+}
+.tbl-requirements-status td, .tbl-requirements-status th {
+  border: 1px solid #B9B9B9;
+}
+
+.tbl-requirements-status {
+  border-collapse: collapse;
+  flex: 1;
+text-align: center;
+}
+
+.tbl-requirements-status td i {
+  display: block;
+  height: 39px;
+  background: #C23C3C;
+  border-radius: 100%;
+  margin: 10px;
+  width: 39px;
+}
+
+.status.status-approved {
+  background: #60AA5E;
+}
+
+.submission-status-btn-con {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+.submission-status-btn-con button {
+  margin: 25px 0 0;
+}

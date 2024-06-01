@@ -1,0 +1,74 @@
+
+
+#submission section h2 {
+    background: #D9D9D9;
+    padding: 10px;
+}
+#submission section ul {
+    list-style: none;
+    padding: 0;
+}
+#submission section ul li {
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#submission .btn-submit {
+  background: #D9D9D9;
+  display: block;
+  width: 150px;
+  text-align: center;
+  height: 38px;
+  color: #000;
+  line-height: 38px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  text-decoration: none !important;
+}
+#submission .status-approved {
+  color: green;
+}
+#submission .status-declined {
+  color: red;
+}
+
+/* add modal */
+#add-modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#add-modal .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #1a1a1a1a;
+}
+
+#add-modal .body {
+  /* position: relative; */
+  z-index: 1;
+  position: absolute;
+  max-width: 800px;
+  width: 100%;
+  margin: -71px auto 0;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 20px 20px 90px;
+  box-sizing: border-box;
+}

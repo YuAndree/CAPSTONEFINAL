@@ -1,0 +1,106 @@
+
+.profile-top {
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.profile-con {
+    padding: 0 65px;
+}
+#profile .profile-con section {
+    background: #E7ECED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-top-right {
+    width: 100%;
+    padding: 20px 38px;
+}
+.profile-top-left {
+    min-width: 411px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px 38px;;
+    box-sizing: border-box;
+}
+.profile-top-left p {
+    margin: 0;
+    color: #8C8A8A;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.profile-top-left h2 {
+    margin: 0;
+}
+.profile-field-con {
+    width: 100%;
+}
+.profile-field input {
+    background: none;
+    border: none;
+    color: #B2B7B8;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
+.profile-field label {
+    font-size: 20px;
+    max-width: 30%;
+    width: 200px;
+    display: block;
+    margin: 0;
+}
+.profile-field {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    border-bottom: 1px solid #B2B7B8;
+}
+#profile .profile-con section button {
+    background: #F8C400;
+    border: none;
+    width: 108px;
+    line-height: 37px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 37px;
+}
+.profile-top-right button {
+    margin: 15px auto 0 0;
+}
+/* bottom */
+.profile-top-right button {
+    background: #F8C400;
+    border: none;
+    width: 108px;
+    line-height: 37px;
+    font-size: 18px;
+    margin: 15px auto 0 0;
+}
+.profile-btm-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.profile-btm-body {
+    width: 100%;
+}
+.profile-btm section {
+    box-sizing: border-box;
+    padding: 23px 55px;
+}
+.profile-btm-body .profile-field label {
+    width: 306px;
+}
+.profile-btm-header h2 {
+    color: #8C8A8A;
+    font-weight: 400;
+    font-size: 27px;
+}

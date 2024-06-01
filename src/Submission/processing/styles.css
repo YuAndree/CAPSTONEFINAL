@@ -1,0 +1,46 @@
+#endorsement-letter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+  }
+
+#endorsement-letter .document-con, #endorsement-letter .document-info {
+  background: none;
+}
+  
+  .pdf-viewer {
+    width: 100%;
+    height: 100vh;
+    margin-top: 25px;
+  }
+  
+  .step-submit {
+    margin: 0;
+  }
+
+.faculty-approval {
+  background: #FFF1FA;
+  padding: 40px 60px;
+  border-radius: 5px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.study-load-status {
+  background: #FFF1FA;
+  padding: 40px 40px;
+}
+
+.study-load-status label {
+  min-width: 125px;
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.download-file {
+  background: #FFF1FA;
+  padding: 40px 40px;
+}

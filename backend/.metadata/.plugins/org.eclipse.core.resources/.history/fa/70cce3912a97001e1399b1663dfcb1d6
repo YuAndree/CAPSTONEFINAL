@@ -1,0 +1,30 @@
+package cit.ojtnsync.caps.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import cit.ojtnsync.caps.Entity.UserEntity;
+import cit.ojtnsync.caps.Repository.UserRepository;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+	
+	// Search by studentID
+    public UserEntity findByStudentID(String studentID) {
+        if (userRepository.findByStudentID(studentID) != null)
+            return userRepository.findByStudentID(studentID);
+        else
+            return null;
+    }
+    
+    public boolean existsByStudentID(String studentID) {
+        return userRepository.existsByStudentID(studentID);
+    }
+    
+    public void createUser(UserEntity userEntity) {
+        userRepository.save(userEntity);
+    }
+}

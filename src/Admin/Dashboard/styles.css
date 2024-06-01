@@ -1,0 +1,36 @@
+
+.dashboard-section {
+    background: #F8C40097;
+    padding: 12px 18px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.student-counts section h2 {
+    font-size: 43px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+  
+.student-counts section {
+    width: 100%;
+}
+
+.student-counts {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    column-gap: 16px;
+    margin-bottom: 15px;
+}
+
+.student-documents-status {
+    display: flex;
+    column-gap: 12px;
+}
+  
+#dashboard-main {
+    padding: 40px 48px;
+}

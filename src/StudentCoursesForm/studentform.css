@@ -1,0 +1,165 @@
+
+.cards-header {
+  background: #D9D9D9;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 14px 15px;
+  margin-top: 0;
+}
+.card figure {
+  margin: 0;
+  width: 520px;
+  height: 170px;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.card figure img {
+  width: 100%;
+}
+
+.cards-header img {
+  margin-right: 35px;
+  max-width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  column-gap: 50px;
+  padding: 32px 68px;
+}
+
+.card {
+  cursor: pointer;
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card h2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 11px;
+  width: 264px;
+  max-width: 100%;
+  margin: 0;
+}
+
+.card a{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.student-courses .overview {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid #D9D9D9;
+  background: #fff;
+}
+
+.progress-bar-con {
+  background: gray;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+}
+.progress-bar {
+  background: #60AA5E;
+  position: absolute;
+  top: 0;
+  left:0;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.progress-counter {
+  display: flex;
+  justify-content: center;
+}
+
+.progress-counter section {
+  border: 2px solid #000;
+  border-radius: 15px;
+  position: relative;
+  padding: 5px 100px 5px 15px;
+}
+
+.progress-counter {
+  column-gap: 48px;
+}
+
+.progress-counter section img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.progress-counter section h4 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.progress-counter section p {
+  margin: 0 0 4px;
+}
+
+.progress-counter section {
+  padding: 14px 100px 14px 15px;
+}
+
+.progress-counter {
+  margin-bottom: 40px;
+}
+
+.update-profile-warning {
+  position: absolute;
+  right: 0;
+  top: -4px;
+}
+
+.update-profile-warning p {
+  border: 1px solid #000;
+  border-radius: 10px;
+  max-width: 100%;
+  position: relative;
+  transform: rotatez(4deg);
+  margin: 0;
+  font-size: 24px;
+  width: 177px;
+  padding: 18px 20px;
+  cursor: pointer;
+}
+
+.update-profile-warning img {
+  position: absolute;
+  top: -60px;
+  left: -67px;
+}
+
+.update-profile-warning a {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: rotatez(4deg);
+}

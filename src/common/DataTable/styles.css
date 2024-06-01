@@ -1,0 +1,30 @@
+/* datatables */
+  
+.datatable {
+    width: 100% !important;
+    margin-top: 25px;
+  }
+  .datatable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .datatable thead th {
+    background: #D9D9D9;
+    text-align: left;
+    padding: 9px 20px;
+  }
+  
+  .datatable tbody tr td {
+    padding: 10px 20px;
+  }
+
+  #dt-search {
+    padding: 8px;
+    margin-bottom: 8px;
+    min-width: 200px;
+    height: 21px;
+    background: #D9D9D9;
+    border: unset;
+  }
+/* end datatables */
